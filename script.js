@@ -51,7 +51,7 @@ let visitas;
 if (!localStorage.getItem("visitas")) localStorage.setItem("visitas", 1);
 else {
     visitas = +localStorage.getItem("visitas");
-    const contagemIncrementada = visitas++;
+    const contagemIncrementada = visitas + 1;
 
     localStorage.setItem("visitas", contagemIncrementada)
 }
