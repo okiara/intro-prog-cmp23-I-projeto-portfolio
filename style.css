@@ -171,5 +171,39 @@ li {
   margin-top: 50px;
   margin-bottom: 50px;
 }
+
+.contador {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  background-color: #ffffff;
+  color: #000000;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.btn-like {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.btn-like .like-count {
+  margin-left: 5px;
+}
+
+.btn-like i {
+  margin-right: 5px;
+}
+
+.btn-like.liked i {
+  color: red;
+}
+
 /* {
 } */

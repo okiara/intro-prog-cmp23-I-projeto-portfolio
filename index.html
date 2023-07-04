@@ -31,7 +31,13 @@
 
   <main>
     <section class="principal">
+      
       <article class="container subcontainer-principal">
+        <div class="contador">
+          <p>Essa página possui</p>
+          <h1 id="count"></h1>
+          <p>visualizações</p>
+        </div>
         <div>
           <img src="img/foto-perfil.png" alt="Foto do meu perfil" class="minha-fotinha">
         </div>
@@ -41,10 +47,18 @@
         </div>
         <div>
           <p class="texto-sobre">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce a nibh in sem tempor lacinia. Integer magna ante, vulputate sit amet sodales sed, pharetra ac velit. In hac habitasse platea dictumst. Nulla facilisi. Nulla id luctus tortor, id hendrerit
-            metus. Donec vulputate tellus sed sollicitudin porta. Aliquam turpis leo, pellentesque et velit a, sagittis scelerisque quam. Suspendisse imperdiet molestie leo. Proin sed imperdiet erat, ut
+            I started to work on the digital solutions ecosystem in 2020.
+            For this time I got varied experiences, being them: <br>
+            - Management of a multidisciplinary team focused on creating a digital solution; <br>
+            - Backend development with Python, Node.js and GoLang; <br>
+            - Frontend development with HTML, CSS, SCSS, React, Angular2+; <br>
+            - Devops enthusiast, studying more about Heroku, Docker, Kubernetes, Terraform, Jenkins and GoCD. <br>
           </p>
         </div>
+        <button class="btn-like" id="like-project-1">
+          <i class="far fa-heart"></i>
+          <span class="like-count">0</span>
+        </button>
       </article>
     </section>
 
@@ -107,6 +121,7 @@
       </ul>
     </div>
   </footer>
+  <script src="script.js"></script>
 </body>
 
 </html>
