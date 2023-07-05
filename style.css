@@ -29,7 +29,7 @@ li {
   padding-top: 32px; 
   padding-bottom: 32px;
   height:  60px;
-  background-color: #938DF8;
+  background-color: #a3448c;
 } 
 
 .header-menu nav{
@@ -76,7 +76,7 @@ li {
 
 .nome-completo{
   font-size: 36px;
-  color: #938df8;
+  color: #a3448c;
   font-weight: 700;
   height: 45px;
 }
@@ -137,7 +137,7 @@ li {
 } 
 
 .footer {
-  background-color: #5A53D8;
+  background-color: #a3448c;
   display: flex;
   align-items: center;
   height: 30vh;
