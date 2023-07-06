@@ -6,30 +6,25 @@
 }
 
 body{
-  font-family: 'Roboto', sans-serif; ;
+  font-family: 'Roboto', sans-serif;
 } 
-
-/* adicionei o scroll-behavior: smooth; para fazer o scroll suave */
-html {
-  scroll-behavior: smooth;
-}
 
 li {
   list-style: none;
 }
 
 .header-menu{
-  width: 100%;
+   width: 100%;
   display: flex;
   justify-content: flex-end;
   display: flex;
   position: fixed;
   width: 100%;
   padding: 8px;
-  padding-top: 32px; 
+  padding-top: 32px;
   padding-bottom: 32px;
   height:  60px;
-  background-color: #a3448c;
+  background-color: #b3093f;
 } 
 
 .header-menu nav{
@@ -76,20 +71,19 @@ li {
 
 .nome-completo{
   font-size: 36px;
-  color: #a3448c;
+  color: #531b3b;
   font-weight: 700;
   height: 45px;
 }
 
 .profissao{
-  color: #B28282;
+  color: #c5c0c0;
   height: 60px;
 } 
 
 .texto-sobre{
   font-size: 20px;
   line-height: 32px;
-  color: #828282;
 } 
 
 .article-lista{
@@ -100,8 +94,8 @@ li {
 }
 
 .topico-principal{
-  color: #49bfb3;
-  font-size: 50px;
+  font-size: 36px;
+  color: #A5BEFA;
 } 
 
 .lista-item{
@@ -109,68 +103,72 @@ li {
 } 
 
 .lista-titulo{
-  margin-bottom: 15px;
+  margin-bottom: 8px;
   font-size: 22px;
-  color: #B28282;
+  color: #64b7cc;
   font-weight: 700;
 }
 
-.lista-subtitulo{
-  margin-bottom: 10px;
-  color: #B28282;
-}
-
 .lista-local{
-  margin-bottom: 10px;
-  margin-top: 5px;
   font-size: 18px;
   color: #2F80ED;
 }
-
-.lista-descricao {
+ .lista-descricao {
   font-size: 18px;
-  margin-top: 10px;
-  margin-bottom: 25px;
-  line-height: 32px;
+  margin-top: 7px;
+  line-height: 23px;
   color: #828282;
   font-weight: 300;
 } 
 
-.footer {
-  background-color: #a3448c;
+.section-3{
+  font-size: 50px;
+  color: rgb(177, 152, 152);
+}
+
+.title{
+  font-size: 36px;
+  color: #b5f9f2;
+}
+
+.section-3{
+  font-size: 18px;
+  margin-top: 7px;
+  line-height: 23px;
+  color: #828282;
+  font-weight: 300;
+  margin-bottom: 8px;
+}
+
+.footer{
+  background-color: #b3093f;
   display: flex;
   align-items: center;
-  height: 30vh;
+  height: 16vh;
 }
+
 
 .lista-footer{
-  color: #FFF;
-  font-weight: 700;
+  color: #fff;
   font-size: 18px;
+  font-weight: 700;
   margin-bottom: 16px;
-  display: table;
-  align-items: center;
+  display: flex;
+  flex-direction: column;
+
+
 }
 
-.links-footer{
-    color: #FFF;
-    text-decoration: none;
-    margin-left: 30px
+.link-footer{
+  color: #FFF;
+  text-decoration: none;
+  margin-left: 10px;
+}
+.foto-perfil{
+  border-radius: 200px;
+  width: 250px;
 }
 
-.projetosPessoais{
- background-color: #EAEAEA;
- padding-top: 100px;
- padding-bottom: 100px;
-} 
-
-.minha-fotinha{
-  width: 200px;
-  height: 200px;
-  border-radius: 50%;
-  margin-top: 50px;
-  margin-bottom: 50px;
-}
 
 .contador {
   position: fixed;
@@ -193,7 +191,7 @@ li {
   align-items: center;
 }
 
-.btn-like .like-count {
+.btn-like.like-count {
   margin-left: 5px;
 }
 
@@ -204,6 +202,3 @@ li {
 .btn-like.liked i {
   color: red;
 }
-
-/* {
-} */

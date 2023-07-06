@@ -43,20 +43,19 @@ function curtirPortifolio() {
 }
 
 function incrementaQuantidadeDeVisitas() {
-const contador = document.getElementById("count");
-
-let visitas;
-
-// aqui verificamos se existe o item visitas no localStorage
-if (!localStorage.getItem("visitas")) localStorage.setItem("visitas", 1);
-else {
-    visitas = +localStorage.getItem("visitas");
-    const contagemIncrementada = visitas + 1;
-
-    localStorage.setItem("visitas", contagemIncrementada)
-}
-console.log("visitas: ", visitas);
-
-console.log(localStorage.getItem("visitas"))
-contador.innerText = localStorage.getItem("visitas")
-}
+  const contador = document.getElementById("count");
+  
+  let visitas;
+  
+  // aqui verificamos se existe o item visitas no localStorage
+  if (!localStorage.getItem("visitas")) localStorage.setItem("visitas", 1);
+  else {
+      visitas = +localStorage.getItem("visitas");
+      const contagemIncrementada = visitas++;
+  
+      localStorage.setItem("visitas", contagemIncrementada)
+  }
+  console.log("visitas: ", visitas);
+  
+  console.log(localStorage.getItem("visitas"))
+  contador.innerText = localStorage.getItem("visitas")}
